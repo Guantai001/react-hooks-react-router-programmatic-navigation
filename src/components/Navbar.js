@@ -15,6 +15,7 @@ function Navbar({ setIsLoggedIn }) {
 
   function handleLogout() {
     setIsLoggedIn(false);
+    // after logging the user out, redirect to the login page!
     history.push("/login");
   }
 
